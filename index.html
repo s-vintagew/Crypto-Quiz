@@ -7,15 +7,19 @@
     <title></title>
     <script src="../JS/" type="text/javascript"></script>
     <script src="../JS/" type="text/javascript"></script>
-    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="CSS/login.css">
 </head>
 
 <body>
-    <div>
-        <form>
-            Name:&nbsp;<input type="text" placeholder="Name"><br>
-            Email:&nbsp;<input type="email" placeholder="Email"><br>
-            <input type="submit" onsubmit="return validate" value="SUBMIT" align="center">
-        </form>
-    </div>
+    <center>
+        <div class="main">
+            <form action="HTML/lvl1.html">
+                <div class="frm">
+                    Name:&nbsp;<input type="text" placeholder="Name"><br> Email:&nbsp;
+                    <input type="email" placeholder="Email"><br>
+                    <input type="submit" onsubmit="return (validate())" value="SUBMIT" align="center">
+                </div>
+            </form>
+        </div>
+    </center>
 </body>
