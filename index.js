@@ -288,18 +288,6 @@ function w(x) {
     }
 }
 
-function w(x) {
-    var items = document.getElementsByClassName('w');
-    var item = items[x - 1].value;
-
-    for (var i = 0; i < items.length; i++) {
-        items[i].value = item;
-    }
-    for (var i = 0; i < items.length; i++) {
-        items[i].style.background = "none";
-    }
-}
-
 function x(x) {
     var items = document.getElementsByClassName('x');
     var item = items[x - 1].value;
