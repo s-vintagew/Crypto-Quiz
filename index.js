@@ -317,7 +317,7 @@ function y(x) {
     var item = items[x - 1].value;
 
     for (var i = 0; i < items.length; i++) {
-        items[i].value = item;
+       items[i].value = item;
     }
     for (var i = 0; i < items.length; i++) {
         items[i].style.background = "none";
