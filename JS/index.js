@@ -305,7 +305,7 @@ function y(x) {
     var item = items[x - 1].value;
 
     for (var i = 0; i < items.length; i++) {
-       items[i].value = item;
+        items[i].value = item;
     }
     for (var i = 0; i < items.length; i++) {
         items[i].style.background = "none";
@@ -321,5 +321,21 @@ function z(x) {
     }
     for (var i = 0; i < items.length; i++) {
         items[i].style.background = "none";
+    }
+}
+
+function checklvl1() {
+    var items = document.getElementsByTagName("input");
+    var str = "myyoiveeveydyoie";
+    var y = "";
+    for (var i = 0; i < items.length; i++)
+        y += items[i].value;
+
+    if (y == str) {
+        alert("Completed Level 1")
+        return true;
+    } else {
+        alert("Letters Misplaced, Try Again")
+        return false;
     }
 }
