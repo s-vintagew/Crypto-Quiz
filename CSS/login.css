@@ -101,9 +101,10 @@ body {
   margin: 5px; 
   font-family: inherit;
   border: none;
+  font-size: large;
   background-color: inherit;
 }
 button:hover
 {
-    background: #eee;
+  background: #bbb;
 }
