@@ -13,7 +13,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    /*margin: 18%;*/
+	width: 80%;
+    
 }
 .container {
   padding: 20px 16px;
