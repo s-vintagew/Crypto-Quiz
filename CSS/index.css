@@ -9,7 +9,7 @@
     text-align: center;
     box-shadow: 0px 0px 8px 4px rgba(253, 207, 0, 0.37);
     transition: 0.3s;
-    margin: 20%;
+    margin: 18%;
 }
 .container {
   padding: 20px 16px;
@@ -35,7 +35,7 @@ body
 background: #0f0c29; 
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
-	overflow: hidden;
+	overflow:auto;
 }
 button
 {
