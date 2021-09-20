@@ -1,5 +1,35 @@
+.main
+{
+    text-align: center;
+    box-shadow: 0px 0px 8px 4px rgba(253, 207, 0, 0.37);
+    transition: 0.3s;
+    margin: 20%;
+}
+.container {
+  padding: 2px 16px;
+}
+
+
 input {
     width: 10px;
     border: none;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px ;
+    background: transparent;
+    color: #ffd200;
+    color-scheme: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    color-scheme: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+body
+{
+    color: #ffd200;
+background: #0f0c29; 
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+}
+button
+{
+    color: #ffd200;
+    border: #ffd200 1px solid;
+    background: transparent; 
 }
