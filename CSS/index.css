@@ -22,6 +22,7 @@ input {
 }
 body
 {
+	
     color: #ffd200;
 background: #0f0c29; 
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
@@ -32,4 +33,11 @@ button
     color: #ffd200;
     border: #ffd200 1px solid;
     background: transparent; 
+}
+input:focus
+{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid;
+	
 }
