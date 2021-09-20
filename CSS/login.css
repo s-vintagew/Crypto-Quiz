@@ -98,8 +98,12 @@ body {
 {
 	width: 100%;
   padding: 15px;
-  margin: 5px;
-  border-radius: 1px;
-  border: 1px solid #ccc;
+  margin: 5px; 
   font-family: inherit;
+  border: none;
+  background-color: inherit;
+}
+button:hover
+{
+    background: #eee;
 }
