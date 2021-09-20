@@ -331,7 +331,7 @@ function checklvl1() {
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
 
-    if (y == str) {
+    if (y.toUpperCase() === str.toUpperCase()) {
         alert("Completed Level 1")
         return true;
     } else {
