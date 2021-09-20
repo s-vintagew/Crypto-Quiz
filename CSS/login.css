@@ -52,20 +52,20 @@ body {
 
 .top:before {
   transform: rotate(45deg);
-  background: #e46569;
+  background: #ff0008;
 }
 .top:after {
   transform: rotate(135deg);
-  background: #ecaf81;
+  background: #ff6f00;
 }
 
 .bottom:before {
   transform: rotate(-45deg);
-  background: #60b8d4;
+  background: #00ff0d;
 }
 .bottom:after {
   transform: rotate(-135deg);
-  background: #3745b5;
+  background: #001eff;
 }
 
 .center {
