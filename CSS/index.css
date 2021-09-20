@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+*
+{
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+}
 .main
 {
     text-align: center;
@@ -6,12 +12,13 @@
     margin: 20%;
 }
 .container {
-  padding: 2px 16px;
+  padding: 20px 16px;
 }
 
 
 input {
-    width: 10px;
+	text-align: center;
+    width: 20px;
     border: none;
     border-bottom: solid 1px ;
     background: transparent;
@@ -22,11 +29,12 @@ input {
 }
 body
 {
-	
     color: #ffd200;
+	/*background-color: #333D79FF;*/
 background: #0f0c29; 
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+	overflow: hidden;
 }
 button
 {
@@ -40,4 +48,8 @@ input:focus
 	outline: none;
 	border-bottom: 1px solid;
 	
+}
+#result
+{
+	display: none;
 }

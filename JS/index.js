@@ -332,10 +332,14 @@ function checklvl1() {
         y += items[i].value;
 
     if (y.toUpperCase() === str.toUpperCase()) {
-        alert("Completed Level 1")
+		document.getElementById("result").style.display="block";
+		document.getElementById("result").innerHTML="Completed level 1";
+		document.getElementById("result").style.color="#00ff00";
         return true;
     } else {
-        alert("Letters Misplaced, Try Again")
+		document.getElementById("result").style.display="block";
+		document.getElementById("result").innerHTML="Letters Misplaced, Try Again";
+		document.getElementById("result").style.color="Red";
         return false;
     }
 }
