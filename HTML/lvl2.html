@@ -14,25 +14,26 @@
     <div class="main">
         <div class="container">
         <form action="">
-            <input onfocus="mclick()" onblur="m(1)" class="m" type="text" maxlength="1">a
-            <input onfocus="yclick()" onblur="y(1)" class="y" type="text" maxlength="1"><wbr>&emsp;
-            <input onfocus="yclick()" onblur="y(2)" class="y" type="text" maxlength="1">
-            <input onfocus="oclick()" onblur="o(1)" class="o" type="text" maxlength="1">u<wbr>&emsp;l
-            <input onfocus="iclick()" onblur="i(1)" class="i" type="text" maxlength="1">
-            <input onfocus="vclick()" onblur="v(1)" class="v" type="text" maxlength="1">
-            <input onfocus="eclick()" onblur="e(1)" class="e" type="text" maxlength="1"><wbr>&emsp;
-            <input onfocus="eclick()" onblur="e(2)" class="e" type="text" maxlength="1">
-            <input onfocus="vclick()" onblur="v(2)" class="v" type="text" maxlength="1">
-            <input onfocus="eclick()" onblur="e(3)" class="e" type="text" maxlength="1">r
-            <input onfocus="yclick()" onblur="y(3)" class="y" type="text" maxlength="1">
-            <input onfocus="dclick()" onblur="d(1)" class="d" type="text" maxlength="1">a
-            <input onfocus="yclick()" onblur="y(4)" class="y" type="text" maxlength="1"><wbr>&emsp;
-            <input onfocus="oclick()" onblur="o(2)" class="o" type="text" maxlength="1">f<wbr>&emsp;l
-            <input onfocus="iclick()" onblur="i(2)" class="i" type="text" maxlength="1">f
-            <input onfocus="eclick()" onblur="e(4)" class="e" type="text" maxlength="1">
+            &ldquo;<input onfocus="tclick()" onblur="t(1)" class="t" type="text" maxlength="1">
+            <input onfocus="hclick()" onblur="h(1)" class="h" type="text" maxlength="1">
+            <input onfocus="aclick()" onblur="a(1)" class="a" type="text" maxlength="1">
+            <input onfocus="tclick()" onblur="t(2)" class="t" type="text" maxlength="1">’S<wbr>&emsp;
+            W<input onfocus="hclick()" onblur="h(2)" class="h" type="text" maxlength="1">
+            <input onfocus="aclick()" onblur="a(2)" class="a" type="text" maxlength="1">
+            <input onfocus="tclick()" onblur="t(3)" class="t" type="text" maxlength="1"><wbr>&emsp;
+            <input onfocus="iclick()" onblur="i(1)" class="i" type="text" maxlength="1"><wbr>&emsp;DO,<br><br>
+            <wbr>&emsp;<input onfocus="iclick()" onblur="i(2)" class="i" type="text" maxlength="1"><wbr>&emsp;
+            DR<input onfocus="iclick()" onblur="i(3)" class="i" type="text" maxlength="1">N
+            <input onfocus="kclick()" onblur="k(1)" class="k" type="text" maxlength="1"><wbr>&emsp;
+            <input onfocus="aclick()" onblur="a(2)" class="a" type="text" maxlength="1">ND<wbr>&emsp;
+            <input onfocus="iclick()" onblur="i(4)" class="i" type="text" maxlength="1"><wbr>&emsp;
+            <input onfocus="kclick()" onblur="k(2)" class="k" type="text" maxlength="1">NOW<wbr>&emsp;
+            <input onfocus="tclick()" onblur="t(4)" class="t" type="text" maxlength="1">
+            <input onfocus="hclick()" onblur="h(3)" class="h" type="text" maxlength="1">
+            <input onfocus="iclick()" onblur="i(5)" class="i" type="text" maxlength="1">NGS.&rdquo;
             <br>
             <br>
-            <button type="button" onclick="hint()">Hint</button>&emsp;<button type="button" onclick="checklvl1()">Submit</button>
+            <button type="button" onclick="hint()">Hint</button>&emsp;<button type="button" onclick="checklvl2()">Submit</button>
 			<p id="hint"></p><p id="result"></p>
         </form>
         </div>
@@ -43,8 +44,8 @@
 <script>
 	function hint()
 	{
-		document.getElementById("hint").innerHTML="BSDK";
-		myVar = setTimeout(hintclose, 5000);
+		document.getElementById("hint").innerHTML="TYRION LANNISTER, GAME OF THRONES";
+		myVar = setTimeout(hintclose, 15000);
 	}
 	function hintclose()
 	{
