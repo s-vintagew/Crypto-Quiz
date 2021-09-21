@@ -26,13 +26,13 @@
 			<input onfocus="wclick()" onblur="w(2)" class="w" type="text" maxlength="1">o
 			<input onfocus="rclick()" onblur="r(2)" class="r" type="text" maxlength="1">
 			<input onfocus="lclick()" onblur="l(3)" class="l" type="text" maxlength="1">
-			<input onfocus="dclick()" onblur="d(1)" class="d" type="text" maxlength="1">.<wbr>&emsp;I
-			<input onfocus="tclick()" onblur="t(3)" class="t" type="text" maxlength="1"><wbr>&emsp;s
+			<input onfocus="dclick()" onblur="d(1)" class="d" type="text" maxlength="1">.<wbr>&emsp;
+            <br>I<input onfocus="tclick()" onblur="t(3)" class="t" type="text" maxlength="1"><wbr>&emsp;s
 			<input onfocus="uclick()" onblur="u(1)" class="u" type="text" maxlength="1">
 			<input onfocus="cclick()" onblur="c(2)" class="c" type="text" maxlength="1">
 			<input onfocus="kclick()" onblur="k(1)" class="k" type="text" maxlength="1">s.<wbr>&emsp;
 			<input onfocus="yclick()" onblur="y(1)" class="y" type="text" maxlength="1">o
-			<input onfocus="uclick()" onblur="u(2)" class="u" type="text" maxlength="1">
+			<input onfocus="uclick()" onblur="u(2)" class="u" type="text" maxlength="1">&prime;
 			<input onfocus="rclick()" onblur="r(3)" class="r" type="text" maxlength="1">e<wbr>&emsp;go
 			<input onfocus="nclick()" onblur="n(1)" class="n" type="text" maxlength="1">
 			<input onfocus="nclick()" onblur="n(2)" class="n" type="text" maxlength="1">a<wbr>&emsp;
@@ -40,7 +40,8 @@
 			<input onfocus="tclick()" onblur="t(4)" class="t" type="text" maxlength="1">!<wbr>&rdquo;
             <br>
             <br>
-            <button type="button" onclick="hint()">Hint</button>&emsp;<button type="button" onclick="checklvl1()">Submit</button>
+            <button type="button" onclick="hint()">Hint</button>&emsp;
+            <button type="button" onclick="checklvl1()">Submit</button>
 			<p id="hint"></p><p id="result"></p>
         </form>
         </div>
@@ -51,7 +52,7 @@
 <script>
 	function hint()
 	{
-		document.getElementById("hint").innerHTML="BSDK";
+		document.getElementById("hint").innerHTML="Monica, F.R.I.E.N.D.S.";
 		myVar = setTimeout(hintclose, 3000);
 	}
 	function hintclose()
