@@ -324,11 +324,10 @@ function z(x) {
     }
 }
 
-
 function checklvl1() {
     var items = document.getElementsByTagName("input");
     var str = "wlcmttrlwrldtuckyurnnlt";
-	var y = "";
+    var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
 
@@ -344,7 +343,6 @@ function checklvl1() {
         return false;
     }
 }
-
 
 function checklvl2() {
     var items = document.getElementsByTagName("input");
@@ -369,12 +367,12 @@ function checklvl2() {
 function checklvl15() {
     var items = document.getElementsByTagName("input");
     var str = "rmmbrwhiodooarwhrioavosid";
-
     var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
 
-   if (y.toUpperCase() === str.toUpperCase()){
+    if (y.toUpperCase() === str.toUpperCase()) {
+
         document.getElementById("result").style.display = "block";
         document.getElementById("result").innerHTML = "Completed level 15";
         document.getElementById("result").style.color = "#00ff00";
