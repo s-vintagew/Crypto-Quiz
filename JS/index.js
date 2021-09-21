@@ -324,10 +324,11 @@ function z(x) {
     }
 }
 
+
 function checklvl1() {
     var items = document.getElementsByTagName("input");
-    var str = "myyoiveeveydyoie";
-    var y = "";
+    var str = "wlcmttrlwrldtuckyurnnlt";
+	var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
 
@@ -343,14 +344,7 @@ function checklvl1() {
         return false;
     }
 }
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-function checklvl2() {
-    var items = document.getElementsByTagName("input");
-    var str = "wlcmttrlwrldtuckyurnnlt";
-=======
->>>>>>> Stashed changes
+
 
 function checklvl2() {
     var items = document.getElementsByTagName("input");
@@ -375,31 +369,12 @@ function checklvl2() {
 function checklvl15() {
     var items = document.getElementsByTagName("input");
     var str = "rmmbrwhiodooarwhrioavosid";
-<<<<<<< Updated upstream
-=======
->>>>>>> 832d8a71590fe7fce07fe83165deb35894714e58
->>>>>>> Stashed changes
+
     var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
 
-    if (y.toUpperCase() === str.toUpperCase()) {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-		document.getElementById("result").style.display="block";
-		document.getElementById("result").innerHTML="Completed level 1";
-		document.getElementById("result").style.color="#00ff00";
-        return true;
-    } else {
-		document.getElementById("result").style.display="block";
-		document.getElementById("result").innerHTML="Letters Misplaced, Try Again";
-		document.getElementById("result").style.color="Red";
-        return false;
-    }
-}
-=======
->>>>>>> Stashed changes
+   if (y.toUpperCase() === str.toUpperCase()){
         document.getElementById("result").style.display = "block";
         document.getElementById("result").innerHTML = "Completed level 15";
         document.getElementById("result").style.color = "#00ff00";
@@ -410,9 +385,4 @@ function checklvl15() {
         document.getElementById("result").style.color = "Red";
         return false;
     }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> 832d8a71590fe7fce07fe83165deb35894714e58
->>>>>>> Stashed changes
