@@ -32,11 +32,23 @@
             <input onfocus="eclick()" onblur="e(4)" class="e" type="text" maxlength="1">
             <br>
             <br>
-            <button type="button" onclick="checklvl1()">Submit</button>
-			<p id="result"></p>
+            <button type="button" onclick="hint()">Hint</button>&emsp;<button type="button" onclick="checklvl1()">Submit</button>
+			<p id="hint"></p><p id="result"></p>
         </form>
         </div>
+		
     </div>
+	
 </body>
-
+<script>
+	function hint()
+	{
+		document.getElementById("hint").innerHTML="BSDK";
+		myVar = setTimeout(hintclose, 5000);
+	}
+	function hintclose()
+	{
+		document.getElementById("hint").style.display="none";
+	}
+	</script>
 </html>
