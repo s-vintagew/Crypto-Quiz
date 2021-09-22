@@ -368,7 +368,7 @@ function checklvl2() {
 
 function checklvl15() {
     var items = document.getElementsByTagName("input");
-    var str = "rmmbrwhiodooarwhrioavosid";
+    var str = "rmmbrwhiodooarwhrionvravosidowinvrbaon";
     var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
