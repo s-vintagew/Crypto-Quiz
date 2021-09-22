@@ -324,6 +324,8 @@ function z(x) {
     }
 }
 
+/*--------------------------------------------------------------------------*/
+
 function checklvl1() {
     var items = document.getElementsByTagName("input");
     var str = "wlcmttrlwrldtuckyurnnlt";
