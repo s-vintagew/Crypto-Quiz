@@ -2,10 +2,10 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta name="viewport" content="width=device-width, initial scale=1.1">
     <meta charset="utf-8">
     <title></title>
-    <script src="JS/" type="text/javascript"></script>
+    <script src="JS/login.js" type="text/javascript"></script>
     <script src="JS/" type="text/javascript"></script>
     <link rel="stylesheet" href="CSS/login.css">
 </head>
@@ -15,11 +15,10 @@
 		<div class="top"></div>
 		<div class="bottom"></div>
 		<div class="center">
-			
 			<h2>Please Sign In</h2>
-			<form action="HTML/lvl1.html">
-			<input type="text" placeholder="Name"><br>
-            <input type="email" placeholder="Email"><br>
+			<form action="HTML/lvl1.html" onSubmit="return(check());">
+			<input type="text" placeholder="Name" id="name"><br>
+            <input type="email" placeholder="Email" id="mail" validate><br>
             <h2><button type="submit" value="submit" align="center">SUBMIT</button></h2>
 			</form>
 		</div>
