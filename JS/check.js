@@ -6,9 +6,13 @@ function checklvl1() {
         y += items[i].value;
 
     if (y.toUpperCase() === str.toUpperCase()) {
+		document.getElementById("frm").style.display="none";
+		document.getElementById("quote").style.display="block";
+		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").innerHTML = "Completed level 1";
         document.getElementById("result").style.color = "#00ff00";
+		document.getElementById("addr").style.display = "block";
         return true;
     } else {
         document.getElementById("result").style.display = "block";
