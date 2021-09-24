@@ -68,6 +68,15 @@ input:focus
 	border-bottom: 0px solid;
 	
 }
+#quote
+{
+	color: #fff;
+  text-shadow:
+	  0 0 7px #fff,
+    0 0 9px #fff,
+    0 0 18px #bc13fe,
+    0 0 38px #bc13fe;
+}
 #result
 {
 	display: none;

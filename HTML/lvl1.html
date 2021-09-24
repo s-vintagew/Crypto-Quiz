@@ -14,7 +14,7 @@
 <body>
     <div class="main">
         <div class="container">
-        <form action="">
+        <form id="frm" action="">
             &ldquo;
 			<input onfocus="wclick()" onblur="w(1)" class="w" type="text" maxlength="1">e
 			<input onfocus="lclick()" onblur="l(1)" class="l" type="text" maxlength="1">
@@ -45,8 +45,11 @@
             <br>
             <button type="button" onclick="hint()">Hint</button>&emsp;
             <button type="button" onclick="checklvl1()">Submit</button>
-			<p id="hint"></p><p id="result"></p>
+			
         </form>
+			<p id="quote"></p>
+			<p id="hint"></p><p id="result"></p>
+			<a id="addr" href="https://www.google.com" style="display: none"><button type="button">Next</button></a>
         </div>
 		
     </div>
