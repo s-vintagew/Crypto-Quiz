@@ -98,6 +98,26 @@ function checklvl5() {
     }
 }
 
+function checklvl6() {
+    var items = document.getElementsByTagName("input");
+    var str = "omeimeistrenenendidotevekowwereitgoigiopeifiditlogthewa";
+    var y = "";
+    for (var i = 0; i < items.length; i++)
+        y += items[i].value;
+
+    if (y.toUpperCase() === str.toUpperCase()) {
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").innerHTML = "Completed level 6";
+        document.getElementById("result").style.color = "#00ff00";
+        return true;
+    } else {
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").innerHTML = "Letters Misplaced, Try Again";
+        document.getElementById("result").style.color = "Red";
+        return false;
+    }
+}
+
 function checklvl15() {
     var items = document.getElementsByTagName("input");
     var str = "rmmbrwhiodooarwhrionvravosidowinvrbaon";
