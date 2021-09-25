@@ -261,7 +261,7 @@ function checklvl12() {
     if (y.toUpperCase() === str.toUpperCase()) {
         document.getElementById("frm").style.display = "none";
         document.getElementById("quote").style.display = "block";
-        document.getElementById("quote").innerHTML = "\"When we strive to become better than we are, everything around us becomes better too.\"";
+        document.getElementById("quote").innerHTML = "\"When we strive to become better than we are, everything around us becomes better too. — Paulo Coelho.\"";
         document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -276,7 +276,7 @@ function checklvl12() {
 
 function checklvl13() {
     var items = document.getElementsByTagName("input");
-    var str = "jstisconctoncysomtimsitsilntyndfromllconctinsisconctyorslf";
+    var str = "welleethtoeoewhoetouleooeelerhtwheoueettheotwelleeoultorelohoulertocrofriethrouhthehhtheowiotoaetoe";
     var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
@@ -284,7 +284,7 @@ function checklvl13() {
     if (y.toUpperCase() === str.toUpperCase()) {
         document.getElementById("frm").style.display = "none";
         document.getElementById("quote").style.display = "block";
-        document.getElementById("quote").innerHTML = "\"Just disconnect. Once in a day sometime, sit silently and from all connections disconnect yourself.\"";
+        document.getElementById("quote").innerHTML = "We all need that someone who gets you like no one else<br>Right when you need it the most<br>We all need a soul to rely on, a shoulder to cry on<br>A friend through the highs and the lows<br>I'm not gonna make it alone";
         document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
