@@ -253,7 +253,7 @@ function checklvl11() {
 
 function checklvl12() {
     var items = document.getElementsByTagName("input");
-    var str = "jstisconctoncysomtimsitsilntyndfromllconctinsisconctyorslf";
+    var str = "hnstrivbcombttrthnrvrythingroundbcomsbttr";
     var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
@@ -261,7 +261,7 @@ function checklvl12() {
     if (y.toUpperCase() === str.toUpperCase()) {
         document.getElementById("frm").style.display = "none";
         document.getElementById("quote").style.display = "block";
-        document.getElementById("quote").innerHTML = "\"Just disconnect. Once in a day sometime, sit silently and from all connections disconnect yourself.\"";
+        document.getElementById("quote").innerHTML = "\"When we strive to become better than we are, everything around us becomes better too.\"";
         document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
