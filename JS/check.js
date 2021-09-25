@@ -8,7 +8,7 @@ function checklvl1() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"Welcome to the real world. It sucks. You’re gonna love it!” - Monica, F.R.I.E.N.D.S.\"";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
 		document.getElementById("addr").style.display = "block";
@@ -31,7 +31,7 @@ function checklvl2() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"That’s what I do, I drink and I know things.” – Tyrion Lannister, G.O.T.\"";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
 		document.getElementById("addr").style.display = "block";
@@ -54,7 +54,7 @@ function checklvl3() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"If you really want something in life, you have to steal it. – Berlin, Money Heist\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -77,7 +77,7 @@ function checklvl4() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"Life’s tragedy is that we get old too soon and wise too late. — Benjamin Franklin\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -100,7 +100,7 @@ function checklvl5() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"Good friends, good books, and a sleepy conscience: this is the ideal life. — Mark Twain\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -123,7 +123,7 @@ function checklvl6() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"Sometimes I’ll start a sentence and I don’t even know where it’s going. I hope I find it along the way. – Michael Scott, The Office\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -146,7 +146,7 @@ function checklvl7() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"If you can do what you do best and be happy, you’re further along in life than most people. — Leonardo DiCaprio\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -169,7 +169,7 @@ function checklvl8() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"If you live long enough, you’ll make mistakes. But if you learn from them, you’ll be a better person. — Bill Clinton\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -192,7 +192,7 @@ function checklvl9() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"The secret of happiness, you see is not found in seeking more, but in developing the capacity to enjoy less. - Socrates\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -215,7 +215,7 @@ function checklvl10() {
     if (y.toUpperCase() === str.toUpperCase()) {
 		document.getElementById("frm").style.display="none";
 		document.getElementById("quote").style.display="block";
-		document.getElementById("quote").innerHTML="\"WELCOME TO THE REAL WORLD. IT SUCKS. YOU'RE GONNA LOVE IT!\"";
+        document.getElementById("quote").innerHTML ="\"I believe every human has a finite number of heartbeats. I don’t intend to waste any of mine. — Neil Armstrong\"";
 		document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
@@ -229,6 +229,75 @@ function checklvl10() {
 }
 
 function checklvl11() {
+    var items = document.getElementsByTagName("input");
+    var str = "jstisconctoncysomtimsitsilntyndfromllconctinsisconctyorslf";
+    var y = "";
+    for (var i = 0; i < items.length; i++)
+        y += items[i].value;
+
+    if (y.toUpperCase() === str.toUpperCase()) {
+        document.getElementById("frm").style.display = "none";
+        document.getElementById("quote").style.display = "block";
+        document.getElementById("quote").innerHTML = "\"Just disconnect. Once in a day sometime, sit silently and from all connections disconnect yourself.\"";
+        document.getElementById("addr").style.display = "block";
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").style.color = "#00ff00";
+        return true;
+    } else {
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").innerHTML = "Letters Misplaced, Try Again";
+        document.getElementById("result").style.color = "Red";
+        return false;
+    }
+}
+
+function checklvl12() {
+    var items = document.getElementsByTagName("input");
+    var str = "jstisconctoncysomtimsitsilntyndfromllconctinsisconctyorslf";
+    var y = "";
+    for (var i = 0; i < items.length; i++)
+        y += items[i].value;
+
+    if (y.toUpperCase() === str.toUpperCase()) {
+        document.getElementById("frm").style.display = "none";
+        document.getElementById("quote").style.display = "block";
+        document.getElementById("quote").innerHTML = "\"Just disconnect. Once in a day sometime, sit silently and from all connections disconnect yourself.\"";
+        document.getElementById("addr").style.display = "block";
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").style.color = "#00ff00";
+        return true;
+    } else {
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").innerHTML = "Letters Misplaced, Try Again";
+        document.getElementById("result").style.color = "Red";
+        return false;
+    }
+}
+
+function checklvl13() {
+    var items = document.getElementsByTagName("input");
+    var str = "jstisconctoncysomtimsitsilntyndfromllconctinsisconctyorslf";
+    var y = "";
+    for (var i = 0; i < items.length; i++)
+        y += items[i].value;
+
+    if (y.toUpperCase() === str.toUpperCase()) {
+        document.getElementById("frm").style.display = "none";
+        document.getElementById("quote").style.display = "block";
+        document.getElementById("quote").innerHTML = "\"Just disconnect. Once in a day sometime, sit silently and from all connections disconnect yourself.\"";
+        document.getElementById("addr").style.display = "block";
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").style.color = "#00ff00";
+        return true;
+    } else {
+        document.getElementById("result").style.display = "block";
+        document.getElementById("result").innerHTML = "Letters Misplaced, Try Again";
+        document.getElementById("result").style.color = "Red";
+        return false;
+    }
+}
+
+function checklvl14() {
     var items = document.getElementsByTagName("input");
     var str = "jstisconctoncysomtimsitsilntyndfromllconctinsisconctyorslf";
     var y = "";
