@@ -299,7 +299,7 @@ function checklvl13() {
 
 function checklvl14() {
     var items = document.getElementsByTagName("input");
-    var str = "jstisconctoncysomtimsitsilntyndfromllconctinsisconctyorslf";
+    var str = "thsamthingtolyuthatnvrwultolyuchangvnwhneeculknwthatcanfnnbyesegoodyouneeyutstaeeootayhey";
     var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
@@ -307,7 +307,7 @@ function checklvl14() {
     if (y.toUpperCase() === str.toUpperCase()) {
         document.getElementById("frm").style.display = "none";
         document.getElementById("quote").style.display = "block";
-        document.getElementById("quote").innerHTML = "\"Just disconnect. Once in a day sometime, sit silently and from all connections disconnect yourself.\"";
+        document.getElementById("quote").innerHTML = "I do the same thing I told you that I never would<br>I told you I'd change, even when I knew I never could<br>I know that I can’t find nobody else as good as you<br>I need you to stay, need you to stay, hey...";
         document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
