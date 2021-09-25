@@ -322,14 +322,16 @@ function checklvl14() {
 
 function checklvl15() {
     var items = document.getElementsByTagName("input");
-    var str = "rmmbrwhiodooarwhrionvravosidowinvrbaon";
+    var str = "rmmbrwhiodooarwhrionvravosidowinvrbaonvwhwohrohchasvwhwrrmmbrhaioofidmwabachom";
     var y = "";
     for (var i = 0; i < items.length; i++)
         y += items[i].value;
 
     if (y.toUpperCase() === str.toUpperCase()) {
-
-        document.getElementById("result").style.display = "block";
+        document.getElementById("frm").style.display = "none";
+        document.getElementById("quote").style.display = "block";
+        document.getElementById("quote").innerHTML = "Remember when I told you;<br>“No matter where I go;<br>I’ll leave your side;<br>You will never be alone”;<br>Even when we go through changes;<br>Even when we’re old;<br>Remember that I told you;<br>I’ll find my way back home<br>...";
+        document.getElementById("addr").style.display = "block";
         document.getElementById("result").style.color = "#00ff00";
         return true;
     } else {
