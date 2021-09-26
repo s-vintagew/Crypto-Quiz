@@ -1,5 +1,4 @@
 /**** Sass Variables ****/
-import url(path/to/font-awesome/css/font-awesome.min.css);
 * {
   padding: 0;
   margin: 0;
@@ -7,10 +6,24 @@ import url(path/to/font-awesome/css/font-awesome.min.css);
 }
 
 body {
+	/*background-color: #333D79FF;*/
+    background: rgb(37,15,56);
+    background: -moz-radial-gradient(circle, rgba(37,15,56,1) 0%, rgba(4,0,17,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(37,15,56,1) 0%, rgba(4,0,17,1) 100%);
+    background: radial-gradient(circle, rgba(37,15,56,1) 0%, rgba(4,0,17,1) 100%);
   font-family: "Open Sans", sans-serif;
-  background: #333;
+ /* background: #333;*/
+}
+.header
+{
+	padding: 10px;
+	font-family: comic sans ms;
+	text-align: center;
+	color: #fff;
+	font-size: 2em;
 }
 
+/*card section*/
 .container {
   max-width: 900px;
   display: flex;
@@ -52,7 +65,7 @@ body {
   transition: 0.5s;
 }
 
-.card:hover .card-image {
+.card:hover .card-image ,.card:hover .profile-img--two{
   transform: translateY(-100px);
   transition: all 0.9s;
 }
@@ -154,7 +167,7 @@ body {
   background: #fff;
   width: 100%;
   height: 120px;
-  z-index: 3;
+  z-index: 2;
   padding: 10px;
   transition: 0.4s;
 }
@@ -163,13 +176,13 @@ body {
   border-radius: 50%;
 }
 
-.card:hover .profile-img--two {
+/*.card:hover .profile-img--two {
   transform: rotateY(180deg);
 }
-
-.card:hover .jane {
+*/
+.card:hover .jane{
   bottom: 0;
   left: 0;
   transition-delay: 0.5s;
-  opacity: 1;
+  opacity: 0.8;
 }
