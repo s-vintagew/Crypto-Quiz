@@ -203,9 +203,9 @@ body {
 }
 .about
 {
-	width: 40%;
+	width: 80%;
 	text-align: center;
-	transform: translate(30%,50%);
+	transform: translate(10%,20%);
 }
 .about .mid
 {
