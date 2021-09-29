@@ -219,7 +219,7 @@ body {
 {
 	font-size: 1.6em;
 	color: white;
-	transform: translate(0%,120%);
+	transform: translate(0%,80%);
 }
 .card:hover .guni-img img{
   bottom: 0;
